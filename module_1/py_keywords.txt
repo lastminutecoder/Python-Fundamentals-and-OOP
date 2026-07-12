@@ -1,0 +1,42 @@
+Python Keywords List
+
+1. False      - Boolean false value
+2. None       - Represents no value
+3. True       - Boolean true value
+4. and        - Logical AND operator
+5. as         - Create an alias
+6. assert     - Debugging and testing condition
+7. async      - Define asynchronous function
+8. await      - Wait for asynchronous result
+9. break      - Exit from a loop
+10. class     - Create a class
+11. continue  - Skip current loop iteration
+12. def       - Define a function
+13. del       - Delete an object or variable
+14. elif      - Else if condition
+15. else      - Execute when condition is false
+16. except    - Handle exceptions
+17. finally   - Execute code after try-except
+18. for       - Create a for loop
+19. from      - Import specific parts from module
+20. global    - Declare global variable
+21. if        - Conditional statement
+22. import    - Import a module
+23. in        - Check membership
+24. is        - Identity comparison
+25. lambda    - Create anonymous function
+26. nonlocal  - Access outer function variable
+27. not       - Logical NOT operator
+28. or        - Logical OR operator
+29. pass      - Empty statement
+30. raise     - Generate an exception
+31. return    - Return value from function
+32. try       - Start exception handling
+33. while     - Create a while loop
+34. with      - Work with context manager
+35. yield     - Return value from generator
+
+Total Python Keywords: 35
+                
+
+                
