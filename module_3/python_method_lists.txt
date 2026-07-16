@@ -1,0 +1,268 @@
+PYTHON LIST METHODS
+===================
+
+1. append()
+------------
+Adds an element at the end of the list.
+
+Syntax:
+list.append(element)
+
+Example:
+numbers = [1, 2, 3]
+numbers.append(4)
+
+Output:
+[1, 2, 3, 4]
+
+
+2. extend()
+------------
+Adds all elements from another iterable (list, tuple, etc.).
+
+Syntax:
+list.extend(iterable)
+
+Example:
+a = [1, 2]
+a.extend([3, 4])
+
+Output:
+[1, 2, 3, 4]
+
+
+3. insert()
+------------
+Inserts an element at a specific index.
+
+Syntax:
+list.insert(index, element)
+
+Example:
+a = [1, 3]
+a.insert(1, 2)
+
+Output:
+[1, 2, 3]
+
+
+4. remove()
+------------
+Removes the first matching value.
+
+Syntax:
+list.remove(element)
+
+Example:
+a = [1, 2, 3]
+a.remove(2)
+
+Output:
+[1, 3]
+
+
+5. pop()
+------------
+Removes and returns an element by index.
+Default removes last element.
+
+Syntax:
+list.pop(index)
+
+Example:
+a = [1, 2, 3]
+x = a.pop()
+
+Output:
+x = 3
+a = [1, 2]
+
+
+6. clear()
+------------
+Removes all elements from the list.
+
+Syntax:
+list.clear()
+
+Example:
+a = [1, 2, 3]
+a.clear()
+
+Output:
+[]
+
+
+7. index()
+------------
+Returns the index of the first occurrence.
+
+Syntax:
+list.index(element)
+
+Example:
+a = [10, 20, 30]
+a.index(20)
+
+Output:
+1
+
+
+8. count()
+------------
+Counts how many times an element appears.
+
+Syntax:
+list.count(element)
+
+Example:
+a = [1, 2, 2, 3]
+a.count(2)
+
+Output:
+2
+
+
+9. sort()
+------------
+Sorts the list in ascending order.
+
+Syntax:
+list.sort()
+
+Example:
+a = [3, 1, 2]
+a.sort()
+
+Output:
+[1, 2, 3]
+
+
+Descending:
+
+a.sort(reverse=True)
+
+Output:
+[3, 2, 1]
+
+
+10. reverse()
+------------
+Reverses the order of elements.
+
+Syntax:
+list.reverse()
+
+Example:
+a = [1, 2, 3]
+a.reverse()
+
+Output:
+[3, 2, 1]
+
+
+11. copy()
+------------
+Creates a shallow copy of the list.
+
+Syntax:
+list.copy()
+
+Example:
+a = [1, 2, 3]
+b = a.copy()
+
+Output:
+b = [1, 2, 3]
+
+
+12. len()
+------------
+Returns number of elements.
+
+Syntax:
+len(list)
+
+Example:
+a = [1, 2, 3]
+len(a)
+
+Output:
+3
+
+
+13. max()
+------------
+Returns the largest element.
+
+Example:
+a = [5, 2, 9]
+max(a)
+
+Output:
+9
+
+
+14. min()
+------------
+Returns the smallest element.
+
+Example:
+a = [5, 2, 9]
+min(a)
+
+Output:
+2
+
+
+15. sum()
+------------
+Returns the sum of all numeric elements.
+
+Example:
+a = [1, 2, 3]
+sum(a)
+
+Output:
+6
+
+
+LIST SLICING
+============
+
+Access part of a list.
+
+Syntax:
+list[start:end:step]
+
+Example:
+
+a = [0,1,2,3,4]
+
+a[1:4]
+
+Output:
+[1,2,3]
+
+
+LIST CHECKING
+=============
+
+in:
+Checks if an element exists.
+
+Example:
+3 in [1,2,3]
+
+Output:
+True
+
+
+not in:
+Checks if an element does not exist.
+
+Example:
+5 not in [1,2,3]
+
+Output:
+True
