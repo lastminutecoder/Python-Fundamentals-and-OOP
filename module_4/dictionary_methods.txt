@@ -1,0 +1,93 @@
+========================
+Python Dictionary: keys()
+========================
+
+What is keys()?
+---------------
+keys() is a method of a Dictionary.
+
+It returns all the keys from the dictionary.
+
+Syntax:
+-------
+dictionary.keys()
+
+
+Example:
+--------
+person = {
+    "name": "Karim",
+    "age": 20,
+    "country": "Bangladesh"
+}
+
+print(person.keys())
+
+
+Output:
+-------
+dict_keys(['name', 'age', 'country'])
+
+
+Simple Explanation:
+-------------------
+A dictionary contains:
+
+Key        Value
+----       --------
+name       Karim
+age        20
+country    Bangladesh
+
+The keys() method returns only the keys:
+
+name
+age
+country
+
+
+Another Example:
+----------------
+person = {
+    "name": "Karim",
+    "age": 20
+}
+
+for key in person.keys():
+    print(key)
+
+
+Output:
+-------
+name
+age
+
+
+Important:
+----------
+keys() returns all the keys of a dictionary.
+
+To get all values:
+------------------
+person.values()
+
+To get both keys and values:
+----------------------------
+person.items()
+
+
+Example:
+--------
+person = {
+    "name": "Karim",
+    "age": 20
+}
+
+print(person.keys())
+print(person.values())
+print(person.items())
+
+
+Remember:
+---------
+keys() = Returns all dictionary keys

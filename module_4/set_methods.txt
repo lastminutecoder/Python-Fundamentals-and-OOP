@@ -1,0 +1,224 @@
+Python Set Methods - Explanation
+
+1. add()
+
+Purpose:
+Adds a single new element to the set.
+
+Example:
+myset = {1, 2, 3}
+myset.add(4)
+
+Result:
+{1, 2, 3, 4}
+
+
+2. update()
+
+Purpose:
+Adds multiple elements from another iterable (list, tuple, set) to the set.
+
+Example:
+A = {1, 2}
+A.update([3, 4, 5])
+
+Result:
+{1, 2, 3, 4, 5}
+
+
+3. remove()
+
+Purpose:
+Removes a specific element from the set.
+If the element does not exist, it gives an error.
+
+Example:
+A = {1, 2, 3}
+A.remove(2)
+
+Result:
+{1, 3}
+
+
+4. discard()
+
+Purpose:
+Removes a specific element from the set.
+If the element does not exist, it does not give an error.
+
+Example:
+A = {1, 2, 3}
+A.discard(5)
+
+Result:
+{1, 2, 3}
+
+
+5. pop()
+
+Purpose:
+Removes and returns an arbitrary element from the set.
+
+Example:
+A = {1, 2, 3}
+A.pop()
+
+
+6. clear()
+
+Purpose:
+Removes all elements from the set.
+
+Example:
+A = {1, 2, 3}
+A.clear()
+
+Result:
+set()
+
+
+7. copy()
+
+Purpose:
+Creates a copy of the set.
+
+Example:
+A = {1, 2, 3}
+B = A.copy()
+
+
+8. union()
+
+Purpose:
+Combines two sets and returns all unique elements.
+
+Example:
+A = {1, 2, 3}
+B = {3, 4, 5}
+
+A.union(B)
+
+Result:
+{1, 2, 3, 4, 5}
+
+
+9. intersection()
+
+Purpose:
+Returns elements that exist in both sets.
+
+Example:
+A = {1, 2, 3}
+B = {2, 3, 4}
+
+A.intersection(B)
+
+Result:
+{2, 3}
+
+
+10. difference()
+
+Purpose:
+Returns elements that exist in the first set but not in the second set.
+
+Example:
+A = {1, 2, 3}
+B = {2, 3, 4}
+
+A.difference(B)
+
+Result:
+{1}
+
+
+11. symmetric_difference()
+
+Purpose:
+Returns elements that are different in both sets.
+(Common elements are removed.)
+
+Example:
+A = {1, 2, 3}
+B = {3, 4, 5}
+
+A.symmetric_difference(B)
+
+Result:
+{1, 2, 4, 5}
+
+
+12. issubset()
+
+Purpose:
+Checks whether all elements of one set exist inside another set.
+
+Example:
+A = {1, 2}
+B = {1, 2, 3}
+
+A.issubset(B)
+
+Result:
+True
+
+
+13. issuperset()
+
+Purpose:
+Checks whether a set contains all elements of another set.
+
+Example:
+A = {1, 2, 3}
+B = {1, 2}
+
+A.issuperset(B)
+
+Result:
+True
+
+
+14. isdisjoint()
+
+Purpose:
+Checks whether two sets have no common elements.
+
+Example:
+A = {1, 2}
+B = {3, 4}
+
+A.isdisjoint(B)
+
+Result:
+True
+
+
+Quick Remember:
+
+add() -> Add one element
+
+update() -> Add multiple elements
+
+remove() -> Remove element (error if missing)
+
+discard() -> Remove element safely
+
+pop() -> Remove random element
+
+clear() -> Empty the set
+
+copy() -> Copy the set
+
+union() -> Combine sets
+
+intersection() -> Common elements
+
+difference() -> Elements only in first set
+
+symmetric_difference() -> Different elements
+
+issubset() -> Check smaller set inside bigger set
+
+issuperset() -> Check bigger set contains smaller set
+
+isdisjoint() -> Check no common elements
